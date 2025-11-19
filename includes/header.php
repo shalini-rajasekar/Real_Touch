@@ -54,7 +54,7 @@
                         <a href="products.php">Products <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu list-unstyled">
                             <li><a href="pages/personal-loan.php">Personal Loan</a></li>
-                            <li><a href="personal-loan-education.php">Personal Loan for Education</a></li>
+                            <li><a href="pages/personal-loan-education.php">Personal Loan for Education</a></li>
                             <li><a href="lap.php">LAP</a></li>
                             <li><a href="secured-business-loan.php">Secured Business Loan</a></li>
                             <li><a href="structured-finance.php">Structured Finance</a></li>
