@@ -4,15 +4,15 @@
     <!-- 1. Brand & Quick Links -->
     <div class="footer-col brand-col">
       <a href="/" class="footer-logo">
-        <img src="assets/images/site_logo.png" alt="YourLogo" width="140">
+        <img src="assets/images/site_logo.png" alt="YourLogo"class="logo_site" width="140">
       </a>
       <p class="footer-tagline">Empowering Businesses to Grow with Confidence</p>
 
       <div class="footer-social">
-        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/people/Real-Touch-Finance-Limited/100083566868664/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/customer_touch" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/27065606/admin/manage-admins/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/real_touch_finance_limited/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
 
@@ -74,6 +74,16 @@
       </div>
     </div>
   </div>
+
+
+  <div class="social-floating-bar">
+    <a href="https://www.facebook.com/people/Real-Touch-Finance-Limited/100083566868664/" class="s-icon fb"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/real_touch_finance_limited/" class="s-icon ig"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/27065606/admin/manage-admins/" class="s-icon li"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="#" class="s-icon yt"><i class="fa-brands fa-youtube"></i></a>
+    <a href="#" class="s-icon wa"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+
 </footer>
 
 <!-- Font Awesome (for social icons) -->

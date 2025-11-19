@@ -669,45 +669,31 @@
   </div>
 </section>
 
+<section class="branch-simple">
+  <div class="branch-center">
 
+    <h2 class="branch-title">Branch Overlook</h2>
+    <p class="branch-desc">
+      We are currently operating across Tamil Nadu with dedicated offices to serve you better.
+    </p>
 
-<section class="branch-modern">
-  <div class="branch-wrapper">
+    <div class="branch-single-box">
+      <div class="branch-icon">
+        <i class="fa-solid fa-location-dot"></i>
+      </div>
 
-    <div class="branch-header">
-      <h2>Branch Overlook</h2>
-      <p>We are currently servicing in <span>Tamil Nadu</span> with <strong>4 Branches</strong></p>
+      <h3>Branch Locator</h3>
+      <p class="small-text">Main Regional Offices</p>
+
+      <a href="#" class="branch-btn">
+        View More <i class="ri-arrow-right-line"></i>
+      </a>
     </div>
 
-    <div class="branch-grid">
-
-      <div class="branch-card">
-        <span class="branch-icon red"></span>
-        <h3>Chennai</h3>
-        <p>Main Regional Office</p>
-      </div>
-
-      <div class="branch-card">
-        <span class="branch-icon yellow"></span>
-        <h3>Kanchipuram</h3>
-        <p>Sub District Branch</p>
-      </div>
-
-      <div class="branch-card">
-        <span class="branch-icon blue"></span>
-        <h3>Thiruvallur</h3>
-        <p>Support Office</p>
-      </div>
-
-      <div class="branch-card">
-        <span class="branch-icon green"></span>
-        <h3>Vandavasi</h3>
-        <p>Service Unit</p>
-      </div>
-
-    </div>
   </div>
 </section>
+
+
 
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
