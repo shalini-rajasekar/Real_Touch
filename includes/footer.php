@@ -3,8 +3,8 @@
 
     <!-- 1. Brand & Quick Links -->
     <div class="footer-col brand-col">
-      <a href="/" class="footer-logo">
-        <img src="assets/images/site_logo.png" alt="YourLogo"class="logo_site" width="140">
+      <a href="<?php echo $basePath; ?>index.php" class="footer-logo">
+        <img src="<?php echo $basePath; ?>assets/images/site_logo.png" alt="YourLogo"class="logo_site" width="140">
       </a>
       <p class="footer-tagline">Empowering Businesses to Grow with Confidence</p>
 
@@ -23,7 +23,7 @@
         <li><a href="#">Business Valuation</a></li>
         <li><a href="#">Insurance Consulting</a></li>
         <li><a href="#">Budgeting & Forecasting</a></li>
-        <li><a href="#">Loan EMI Calculator</a></li>
+        <li><a href="<?php echo $basePath; ?>pages/emi-calculator.php">Loan EMI Calculator</a></li>
         <li><a href="#">Data Migration Insurance</a></li>
       </ul>
     </div>
@@ -32,11 +32,11 @@
     <div class="footer-col">
       <h4>Company</h4>
       <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Investor Info</a></li>
-        <li><a href="#">News & Events</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="<?php echo $basePath; ?>about.php">About Us</a></li>
+        <li><a href="<?php echo $basePath; ?>career.php">Careers</a></li>
+        <li><a href="<?php echo $basePath; ?>pages/investor-info.php">Investor Info</a></li>
+        <li><a href="<?php echo $basePath; ?>news-events.php">News & Events</a></li>
+        <li><a href="<?php echo $basePath; ?>contact.php">Contact Us</a></li>
       </ul>
     </div>
 
@@ -86,6 +86,12 @@
 
 </footer>
 
+<!-- Scripts -->
+<script src="<?php echo $basePath; ?>assets/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $basePath; ?>assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <!-- Font Awesome (for social icons) -->
 <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
 
@@ -93,3 +99,5 @@
   // Auto-update year
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
+</body>
+</html>

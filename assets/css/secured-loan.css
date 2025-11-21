@@ -1,0 +1,456 @@
+/* =========================================
+   Secured Business Loan Styles (Modern Split Layout)
+   ========================================= */
+
+:root {
+    --primary-blue: #0d214f;
+    --secondary-blue: #2563eb;
+    --accent-gold: #ffc107;
+    --text-dark: #1a1a1a;
+    --text-grey: #555555;
+    --light-bg: #f8f9fa;
+    --white: #ffffff;
+    --border-color: #e9ecef;
+    --soft-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    color: var(--primary-blue);
+}
+
+/* =========================================
+   1. Hero Section (Split)
+   ========================================= */
+.loan-hero-split {
+    display: flex;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-left {
+    flex: 1;
+    padding: 80px 60px;
+    display: flex;
+    align-items: center;
+    background: #f0f4ff;
+    /* Light blue tint */
+}
+
+.hero-right {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 400px;
+}
+
+.hero-content-wrapper {
+    max-width: 600px;
+}
+
+.hero-content-wrapper h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: var(--primary-blue);
+}
+
+.subheadline {
+    font-size: 1.1rem;
+    color: var(--text-grey);
+    margin-bottom: 30px;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary-custom {
+    background: var(--secondary-blue);
+    color: var(--white);
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+    border: 2px solid var(--secondary-blue);
+}
+
+.btn-primary-custom:hover {
+    background: var(--primary-blue);
+    border-color: var(--primary-blue);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.btn-secondary-custom {
+    background: transparent;
+    color: var(--primary-blue);
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+    border: 2px solid var(--primary-blue);
+}
+
+.btn-secondary-custom:hover {
+    background: var(--primary-blue);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+/* =========================================
+   2. Overview Section
+   ========================================= */
+.product-overview-modern {
+    padding: 100px 0;
+    background: var(--white);
+}
+
+.overview-modern-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.overview-visual {
+    position: relative;
+}
+
+.main-overview-img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: var(--soft-shadow);
+}
+
+.floating-stat-card {
+    position: absolute;
+    background: var(--white);
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 200px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.floating-stat-card.top-right {
+    top: 30px;
+    right: -30px;
+}
+
+.floating-stat-card.bottom-left {
+    bottom: 30px;
+    left: -30px;
+    animation-delay: 1.5s;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.stat-icon-box {
+    width: 40px;
+    height: 40px;
+    background: rgba(37, 99, 235, 0.1);
+    color: var(--secondary-blue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.stat-text h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--primary-blue);
+}
+
+.stat-text span {
+    font-size: 0.85rem;
+    color: var(--text-grey);
+}
+
+/* =========================================
+   3. Zig-Zag Benefits
+   ========================================= */
+.benefits-zigzag {
+    padding: 80px 0;
+    background: #f8faff;
+}
+
+.zigzag-row {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+
+.zigzag-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.zigzag-content {
+    flex: 1;
+}
+
+.zigzag-image {
+    flex: 1;
+}
+
+.zigzag-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: var(--soft-shadow);
+}
+
+.zigzag-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--white);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: var(--secondary-blue);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.zigzag-content h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.zigzag-content p {
+    color: var(--text-grey);
+    font-size: 1.1rem;
+}
+
+/* =========================================
+   4. Timeline Process
+   ========================================= */
+.process-timeline-section {
+    padding: 100px 0;
+    background: var(--white);
+}
+
+.timeline-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #e2e8f0;
+    z-index: 0;
+}
+
+.timeline-item {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    flex: 1;
+    padding: 0 15px;
+}
+
+.timeline-dot {
+    width: 50px;
+    height: 50px;
+    background: var(--secondary-blue);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0 auto 20px;
+    border: 4px solid var(--white);
+    box-shadow: 0 0 0 2px #e2e8f0;
+}
+
+.timeline-content h4 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    font-size: 0.9rem;
+    color: var(--text-grey);
+}
+
+/* =========================================
+   5. Eligibility & Documents
+   ========================================= */
+.eligibility-section {
+    padding: 80px 0;
+    background: #f8faff;
+}
+
+.list-group-item {
+    border: none;
+    padding: 12px 0;
+    font-size: 1.05rem;
+    color: var(--text-dark);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--secondary-blue);
+    background-color: rgba(37, 99, 235, 0.1);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(37, 99, 235, 0.1);
+}
+
+/* =========================================
+   6. Interest Table
+   ========================================= */
+.interest-section {
+    padding: 80px 0;
+    background: var(--primary-blue);
+    color: var(--white);
+}
+
+.interest-section h2 {
+    color: var(--white);
+}
+
+.table-dark {
+    --bs-table-bg: rgba(255, 255, 255, 0.1);
+    --bs-table-border-color: rgba(255, 255, 255, 0.1);
+}
+
+.table th {
+    padding: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.table td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+/* =========================================
+   7. CTA Footer
+   ========================================= */
+.cta-footer {
+    padding: 80px 0;
+    text-align: center;
+    background: linear-gradient(135deg, var(--secondary-blue), var(--primary-blue));
+    color: var(--white);
+}
+
+.cta-footer h2 {
+    color: var(--white);
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.cta-footer p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* =========================================
+   Responsive
+   ========================================= */
+@media (max-width: 992px) {
+    .loan-hero-split {
+        flex-direction: column;
+    }
+
+    .hero-left {
+        padding: 60px 30px;
+        text-align: center;
+    }
+
+    .hero-btns {
+        justify-content: center;
+    }
+
+    .overview-modern-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .overview-visual {
+        order: -1;
+        margin-bottom: 40px;
+    }
+
+    .zigzag-row {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .zigzag-row.reverse {
+        flex-direction: column;
+    }
+
+    .zigzag-icon {
+        margin: 0 auto 20px;
+    }
+
+    .timeline-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .timeline-container::before {
+        display: none;
+        /* Hide horizontal line on mobile */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content-wrapper h1 {
+        font-size: 2.5rem;
+    }
+
+    .floating-stat-card {
+        position: static;
+        margin-top: 15px;
+        width: 100%;
+    }
+}

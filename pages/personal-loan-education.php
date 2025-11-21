@@ -17,7 +17,7 @@
         Flexible repayment, low interest rates, and hassle-free processing for students and parents.
       </p>
       
-      <div class="ple-hero-stats">
+      <!-- <div class="ple-hero-stats">
         <div class="ple-stat" data-testid="stat-rate">
           <div class="ple-stat-number">7.5%</div>
           <div class="ple-stat-label">Starting Rate</div>
@@ -30,7 +30,7 @@
           <div class="ple-stat-number">15 Years</div>
           <div class="ple-stat-label">Max Tenure</div>
         </div>
-      </div>
+      </div> -->
       
       <div class="ple-hero-actions">
         <a href="#apply" class="ple-btn-primary" data-testid="apply-now-btn">
@@ -188,7 +188,7 @@
       </button>
       <button class="ple-tab" data-tab="parents" onclick="switchEligibilityTab('parents')" data-testid="tab-parents">
         <i class="fas fa-users"></i>
-        <span>Parents/Guardians</span>
+        <span>Parent / Guardians</span>
       </button>
     </div>
     
@@ -198,7 +198,8 @@
           <div class="ple-eligibility-card">
             <i class="fas fa-id-card"></i>
             <h4>Age</h4>
-            <p>18 to 35 years</p>
+            <p>Applicants must be
+18 to 35 years old</p>
           </div>
           <div class="ple-eligibility-card">
             <i class="fas fa-graduation-cap"></i>
@@ -213,7 +214,8 @@
           <div class="ple-eligibility-card">
             <i class="fas fa-flag-checkered"></i>
             <h4>Nationality</h4>
-            <p>Indian citizen or NRI</p>
+            <p>Eligible for both
+Indian citizens and NRIs</p>
           </div>
           <div class="ple-eligibility-card">
             <i class="fas fa-user-friends"></i>
@@ -225,113 +227,195 @@
             <h4>Course Type</h4>
             <p>Full-time degree/diploma programs</p>
           </div>
+          <div class="ple-eligibility-card">
+            <i class="fas fa-home"></i>
+            <h4>Residence Status</h4>
+            <p>Permanent or current
+residential proof required</p>
+          </div>
+                    <div class="ple-eligibility-card">
+            <i class="fas fa-credit-card"></i>
+            <h4>Credit History</h4>
+            <p>Healthy credit profile
+preferred but not mandatory</p>
+          </div>
         </div>
       </div>
       
       <div class="ple-tab-content" id="parents" data-testid="content-parents">
-        <div class="ple-eligibility-grid">
-          <div class="ple-eligibility-card">
-            <i class="fas fa-id-card"></i>
-            <h4>Age</h4>
-            <p>21 to 65 years</p>
-          </div>
-          <div class="ple-eligibility-card">
-            <i class="fas fa-briefcase"></i>
-            <h4>Employment</h4>
-            <p>Salaried, self-employed, or retired with pension</p>
-          </div>
-          <div class="ple-eligibility-card">
-            <i class="fas fa-rupee-sign"></i>
-            <h4>Income</h4>
-            <p>Minimum annual income of ₹3,00,000</p>
-          </div>
-          <div class="ple-eligibility-card">
-            <i class="fas fa-credit-card"></i>
-            <h4>Credit Score</h4>
-            <p>CIBIL score of 650 or above</p>
-          </div>
-          <div class="ple-eligibility-card">
-            <i class="fas fa-home"></i>
-            <h4>Residence</h4>
-            <p>Valid address proof required</p>
-          </div>
-          <div class="ple-eligibility-card">
-            <i class="fas fa-file-alt"></i>
-            <h4>Documents</h4>
-            <p>Income proof and KYC documents</p>
-          </div>
-        </div>
-      </div>
+  <div class="ple-eligibility-grid">
+
+    <div class="ple-eligibility-card">
+      <i class="fas fa-id-card"></i>
+      <h4>Age</h4>
+      <p>21 to 65 years old<br>as per loan policy</p>
+    </div>
+
+    <div class="ple-eligibility-card">
+      <i class="fas fa-briefcase"></i>
+      <h4>Employment</h4>
+      <p>Salaried, self-employed,<br>or retired with pension</p>
+    </div>
+
+    <div class="ple-eligibility-card">
+      <i class="fas fa-rupee-sign"></i>
+      <h4>Income</h4>
+      <p>Minimum yearly income<br>of ₹3,00,000 or above</p>
+    </div>
+
+    <div class="ple-eligibility-card">
+      <i class="fas fa-credit-card"></i>
+      <h4>Credit Score</h4>
+      <p>CIBIL score of 650+<br>required for approval</p>
+    </div>
+
+    <div class="ple-eligibility-card">
+      <i class="fas fa-home"></i>
+      <h4>Residence</h4>
+      <p>Valid permanent or current<br>address proof required</p>
+    </div>
+
+    <div class="ple-eligibility-card">
+      <i class="fas fa-file-alt"></i>
+      <h4>Documents</h4>
+      <p>KYC papers and income<br>proof documentation</p>
+    </div>
+
+    <!-- EXTRA CARD 1 -->
+    <div class="ple-eligibility-card">
+      <i class="fas fa-book"></i>
+      <h4>Loan Purpose</h4>
+      <p>Loan must be used for<br>education-related needs</p>
+    </div>
+
+    <!-- EXTRA CARD 2 -->
+    <div class="ple-eligibility-card">
+      <i class="fas fa-users"></i>
+      <h4>Co-Applicant</h4>
+      <p>Parent or guardian must<br>be a joint applicant</p>
+    </div>
+
+  </div>
+</div>
+
     </div>
   </div>
 </section>
 
-<!-- ==================== EMI CALCULATOR ==================== -->
-<section class="ple-calculator" id="calculator" data-testid="calculator-section">
-  <div class="ple-container">
-    <div class="ple-section-header center">
-      <span class="ple-tag" data-testid="calculator-tag">PLAN YOUR FINANCES</span>
-      <h2 data-testid="calculator-title">EMI Calculator</h2>
-      <p data-testid="calculator-description">Calculate your monthly installments and plan your education loan repayment</p>
+<!-- ==================== NEW CLEAN EMI CALCULATOR ==================== -->
+<section class="emi-clean" id="calculator">
+  <div class="emi-clean-container">
+
+    <div class="emi-clean-header" data-aos="fade-up">
+       <span 
+  data-testid="eligibility-tag"
+  style="
+    display:inline-block;
+    background:linear-gradient(135deg, #29b9ed, #2563eb);
+    color:#fff;
+    font-size:0.75rem;
+    font-weight:600;
+    padding:8px 20px;
+    border-radius:50px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    margin-bottom:15px;
+    font-family:'Poppins', sans-serif;
+  "
+>
+  PLAN YOUR FINANCES
+</span>
+      <h2>EMI Calculator</h2>
+      <p>Calculate your education loan EMI instantly</p>
     </div>
-    
-    <div class="ple-calculator-wrapper">
-      <div class="ple-calculator-inputs" data-testid="calculator-inputs">
-        <div class="ple-input-row">
-          <label for="ple-loan-amount">Loan Amount (₹)</label>
-          <input type="number" id="ple-loan-amount" value="500000" min="50000" max="5000000" step="10000" oninput="calculateEducationEMI()" data-testid="input-loan-amount" />
-          <input type="range" id="ple-loan-range" value="500000" min="50000" max="5000000" step="10000" oninput="syncLoanAmount(this.value)" data-testid="range-loan-amount" />
-          <div class="ple-range-labels">
+
+    <div class="emi-clean-wrapper" data-aos="fade-up">
+
+      <!-- LEFT INPUT PANEL -->
+      <div class="emi-clean-inputs">
+
+        <div class="emi-clean-input">
+          <label>Loan Amount (₹)</label>
+          <input type="number" id="ple-loan-amount"
+                 value="500000" min="50000" max="5000000"
+                 step="10000" oninput="calculateEducationEMI()" />
+
+          <input type="range" id="ple-loan-range"
+                 value="500000" min="50000" max="5000000"
+                 step="10000" oninput="syncLoanAmount(this.value)" />
+
+          <div class="emi-clean-range-text">
             <span>₹50K</span>
             <span>₹50L</span>
           </div>
         </div>
-        
-        <div class="ple-input-row">
-          <label for="ple-interest-rate">Interest Rate (% p.a.)</label>
-          <input type="number" id="ple-interest-rate" value="7.5" min="5" max="20" step="0.1" oninput="calculateEducationEMI()" data-testid="input-interest-rate" />
-          <input type="range" id="ple-rate-range" value="7.5" min="5" max="20" step="0.1" oninput="syncInterestRate(this.value)" data-testid="range-interest-rate" />
-          <div class="ple-range-labels">
+
+        <div class="emi-clean-input">
+          <label>Interest Rate (% p.a.)</label>
+          <input type="number" id="ple-interest-rate"
+                 value="7.5" min="5" max="20"
+                 step="0.1" oninput="calculateEducationEMI()" />
+
+          <input type="range" id="ple-rate-range"
+                 value="7.5" min="5" max="20"
+                 step="0.1" oninput="syncInterestRate(this.value)" />
+
+          <div class="emi-clean-range-text">
             <span>5%</span>
             <span>20%</span>
           </div>
         </div>
-        
-        <div class="ple-input-row">
-          <label for="ple-tenure">Loan Tenure (Years)</label>
-          <input type="number" id="ple-tenure" value="10" min="1" max="15" step="1" oninput="calculateEducationEMI()" data-testid="input-tenure" />
-          <input type="range" id="ple-tenure-range" value="10" min="1" max="15" step="1" oninput="syncTenure(this.value)" data-testid="range-tenure" />
-          <div class="ple-range-labels">
+
+        <div class="emi-clean-input">
+          <label>Loan Tenure (Years)</label>
+          <input type="number" id="ple-tenure"
+                 value="10" min="1" max="15"
+                 step="1" oninput="calculateEducationEMI()" />
+
+          <input type="range" id="ple-tenure-range"
+                 value="10" min="1" max="15"
+                 step="1" oninput="syncTenure(this.value)" />
+
+          <div class="emi-clean-range-text">
             <span>1 Year</span>
             <span>15 Years</span>
           </div>
         </div>
+
       </div>
-      
-      <div class="ple-calculator-results" data-testid="calculator-results">
-        <div class="ple-result-card main" data-testid="result-emi">
-          <div class="ple-result-label">Monthly EMI</div>
-          <div class="ple-result-value" id="ple-emi-result">₹5,914</div>
+
+      <!-- RIGHT RESULTS PANEL -->
+      <div class="emi-clean-results">
+
+        <div class="emi-clean-card highlight">
+          <label>Monthly EMI</label>
+          <h3 id="ple-emi-result">₹5,935</h3>
         </div>
-        
-        <div class="ple-result-card" data-testid="result-principal">
-          <div class="ple-result-label">Principal Amount</div>
-          <div class="ple-result-value" id="ple-principal-result">₹5,00,000</div>
+
+        <div class="emi-clean-card">
+          <label>Principal Amount</label>
+          <h4 id="ple-principal-result">₹500,000</h4>
         </div>
-        
-        <div class="ple-result-card" data-testid="result-interest">
-          <div class="ple-result-label">Total Interest</div>
-          <div class="ple-result-value" id="ple-interest-result">₹2,09,680</div>
+
+        <div class="emi-clean-card">
+          <label>Total Interest</label>
+          <h4 id="ple-interest-result">₹212,211</h4>
         </div>
-        
-        <div class="ple-result-card" data-testid="result-total">
-          <div class="ple-result-label">Total Payment</div>
-          <div class="ple-result-value" id="ple-total-result">₹7,09,680</div>
+
+        <div class="emi-clean-card">
+          <label>Total Payment</label>
+          <h4 id="ple-total-result">₹712,211</h4>
         </div>
+
       </div>
+
     </div>
+
   </div>
 </section>
+
+
+
 
 <!-- ==================== APPLICATION PROCESS ==================== -->
 <section class="ple-process" data-testid="process-section">
@@ -467,7 +551,7 @@
         </a>
         <a href="#" class="ple-btn-outline large" data-testid="cta-contact-btn">
           <i class="fas fa-phone"></i>
-          <span>Call Us: +91 98765 43210</span>
+          <span>Call Us +91 98765 43210</span>
         </a>
       </div>
     </div>
