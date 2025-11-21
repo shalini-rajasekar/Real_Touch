@@ -2,241 +2,541 @@
 
 <link rel="stylesheet" href="../assets/css/secured-loan.css">
 
-<!-- ================= Split Hero Section ================= -->
-<section class="loan-hero-split">
-  <div class="hero-left">
-    <div class="hero-content-wrapper">
+<!-- ===== HERO SECTION ===== -->
+<section class="sbl-hero">
+  <div class="sbl-hero-overlay"></div>
+  <div class="sbl-hero-shapes">
+    <div class="sbl-shape sbl-shape-1"></div>
+    <div class="sbl-shape sbl-shape-2"></div>
+    <div class="sbl-shape sbl-shape-3"></div>
+  </div>
+  
+  <div class="sbl-hero-container">
+    <div class="sbl-hero-content">
+      <div class="sbl-hero-badge">
+        <i class="fas fa-briefcase"></i>
+        <span>Business Growth Solutions</span>
+      </div>
       <h1>Secured Business Loan</h1>
-      <p class="subheadline">Unlock the capital trapped in your assets. Get high-value financing with competitive rates to fuel your business expansion.</p>
-      <div class="hero-btns">
-        <a href="<?php echo $base_url; ?>contact.php" class="btn-primary-custom">Apply Now</a>
-        <a href="#" class="btn-secondary-custom">Brochure</a>
+      <p>Fuel your business expansion with property-backed financing. Access substantial capital at competitive rates to drive growth, manage cash flow, and seize opportunities.</p>
+      
+      <div class="sbl-hero-features">
+        <div class="sbl-feature-tag">
+          <i class="fas fa-check-circle"></i>
+          <span>Up to ₹5 Cr</span>
+        </div>
+        <div class="sbl-feature-tag">
+          <i class="fas fa-check-circle"></i>
+          <span>From 9% Interest</span>
+        </div>
+        <div class="sbl-feature-tag">
+          <i class="fas fa-check-circle"></i>
+          <span>48-72 Hours Approval</span>
+        </div>
+      </div>
+      
+      <div class="sbl-hero-buttons">
+        <a href="#contact" class="sbl-btn sbl-btn-primary">
+          Apply Now <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#eligibility" class="sbl-btn sbl-btn-outline">
+          Check Eligibility
+        </a>
       </div>
     </div>
   </div>
-  <div class="hero-right" style="background-image: url('<?php echo $base_url; ?>assets/images/banner/banner2.png');">
-    <!-- Image Background -->
+</section>
+
+<!-- ===== WHY CHOOSE SECTION ===== -->
+<section class="sbl-why-choose">
+  <div class="sbl-container">
+    <div class="sbl-section-header">
+      <span class="sbl-tag">BENEFITS</span>
+      <h2>Why Choose Our Secured Business Loan?</h2>
+      <p>Leverage your property assets to unlock growth capital with favorable terms</p>
+    </div>
+    
+    <div class="sbl-features-layout">
+      <div class="sbl-feature-item">
+        <div class="sbl-feature-visual">
+          <div class="sbl-feature-icon">
+            <i class="fas fa-hand-holding-usd"></i>
+          </div>
+        </div>
+        <div class="sbl-feature-content">
+          <h3>Higher Loan Amount</h3>
+          <p>Secure financing up to ₹5 crores based on your property value. Get substantial capital to expand operations, purchase equipment, or manage working capital needs.</p>
+        </div>
+      </div>
+      
+      <div class="sbl-feature-item sbl-feature-reverse">
+        <div class="sbl-feature-visual">
+          <div class="sbl-feature-icon">
+            <i class="fas fa-percentage"></i>
+          </div>
+        </div>
+        <div class="sbl-feature-content">
+          <h3>Competitive Interest Rates</h3>
+          <p>Benefit from lower interest rates starting at 9% p.a. Property collateral reduces lender risk, translating to better rates and lower monthly EMI burden for your business.</p>
+        </div>
+      </div>
+      
+      <div class="sbl-feature-item">
+        <div class="sbl-feature-visual">
+          <div class="sbl-feature-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+        </div>
+        <div class="sbl-feature-content">
+          <h3>Flexible Repayment</h3>
+          <p>Choose tenure from 1 to 15 years that aligns with your business cash flow. Adjust repayment schedule to match your revenue cycles and seasonal fluctuations.</p>
+        </div>
+      </div>
+      
+      <div class="sbl-feature-item sbl-feature-reverse">
+        <div class="sbl-feature-visual">
+          <div class="sbl-feature-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+        </div>
+        <div class="sbl-feature-content">
+          <h3>Quick Processing</h3>
+          <p>Fast-track approval process with digital documentation. Get your loan sanctioned within 48-72 hours and funds disbursed quickly to capitalize on time-sensitive opportunities.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- ================= Overview with Floating Cards ================= -->
-<section class="product-overview-modern">
-  <div class="container">
-    <div class="overview-modern-grid">
-      <!-- Visual Side -->
-      <div class="overview-visual">
-        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Business Meeting" class="main-overview-img">
-        
-        <!-- Floating Cards -->
-        <div class="floating-stat-card top-right">
-          <div class="stat-icon-box"><i class="fas fa-rupee-sign"></i></div>
-          <div class="stat-text">
-            <h4>₹5 Cr</h4>
-            <span>Max Loan Amount</span>
-          </div>
+<!-- ===== USE CASES SECTION ===== -->
+<section class="sbl-use-cases">
+  <div class="sbl-container">
+    <div class="sbl-section-header">
+      <span class="sbl-tag">APPLICATIONS</span>
+      <h2>How Can You Use This Loan?</h2>
+      <p>Multiple ways to deploy capital for business growth</p>
+    </div>
+    
+    <div class="sbl-use-cases-grid">
+      <div class="sbl-use-case-card">
+        <div class="sbl-use-icon">
+          <i class="fas fa-industry"></i>
         </div>
-        
-        <div class="floating-stat-card bottom-left">
-          <div class="stat-icon-box"><i class="fas fa-clock"></i></div>
-          <div class="stat-text">
-            <h4>48 Hrs</h4>
-            <span>Quick Approval</span>
+        <h4>Business Expansion</h4>
+        <p>Open new branches, enter new markets, or scale operations</p>
+      </div>
+      
+      <div class="sbl-use-case-card">
+        <div class="sbl-use-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <h4>Equipment Purchase</h4>
+        <p>Acquire machinery, technology, or infrastructure assets</p>
+      </div>
+      
+      <div class="sbl-use-case-card">
+        <div class="sbl-use-icon">
+          <i class="fas fa-box"></i>
+        </div>
+        <h4>Working Capital</h4>
+        <p>Manage inventory, payroll, and day-to-day operations</p>
+      </div>
+      
+      <div class="sbl-use-case-card">
+        <div class="sbl-use-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h4>Debt Consolidation</h4>
+        <p>Consolidate high-interest loans into single manageable EMI</p>
+      </div>
+      
+      <div class="sbl-use-case-card">
+        <div class="sbl-use-icon">
+          <i class="fas fa-building"></i>
+        </div>
+        <h4>Property Purchase</h4>
+        <p>Buy commercial property or expand existing facilities</p>
+      </div>
+      
+      <div class="sbl-use-case-card">
+        <div class="sbl-use-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h4>Hiring & Training</h4>
+        <p>Expand workforce and invest in employee development</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ELIGIBILITY SECTION ===== -->
+<section class="sbl-eligibility" id="eligibility">
+  <div class="sbl-container">
+    <div class="sbl-eligibility-layout">
+      <div class="sbl-eligibility-image">
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80" alt="Business">
+        <div class="sbl-stats-overlay">
+          <div class="sbl-stat-box">
+            <h3>₹5 Cr</h3>
+            <p>Max Loan</p>
+          </div>
+          <div class="sbl-stat-box">
+            <h3>15 Years</h3>
+            <p>Max Tenure</p>
           </div>
         </div>
       </div>
+      
+      <div class="sbl-eligibility-content">
+        <span class="sbl-tag">ELIGIBILITY</span>
+        <h2>Qualification Criteria</h2>
+        <p>Simple requirements for business owners seeking property-backed financing</p>
+        
+        <div class="sbl-criteria-list">
+          <div class="sbl-criteria-item">
+            <div class="sbl-criteria-icon">
+              <i class="fas fa-building"></i>
+            </div>
+            <div class="sbl-criteria-text">
+              <h4>Business Vintage</h4>
+              <p>Minimum 3 years of operational history with stable revenue</p>
+            </div>
+          </div>
+          
+          <div class="sbl-criteria-item">
+            <div class="sbl-criteria-icon">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <div class="sbl-criteria-text">
+              <h4>Annual Turnover</h4>
+              <p>Minimum ₹50 lakhs annual turnover for the last 2 financial years</p>
+            </div>
+          </div>
+          
+          <div class="sbl-criteria-item">
+            <div class="sbl-criteria-icon">
+              <i class="fas fa-file-invoice-dollar"></i>
+            </div>
+            <div class="sbl-criteria-text">
+              <h4>Profitability</h4>
+              <p>Business should be profit-making for at least last 2 years</p>
+            </div>
+          </div>
+          
+          <div class="sbl-criteria-item">
+            <div class="sbl-criteria-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="sbl-criteria-text">
+              <h4>Credit Score</h4>
+              <p>CIBIL score of 700+ for business and all promoters/directors</p>
+            </div>
+          </div>
+          
+          <div class="sbl-criteria-item">
+            <div class="sbl-criteria-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <div class="sbl-criteria-text">
+              <h4>Property Ownership</h4>
+              <p>Clear title property (residential/commercial/industrial) for collateral</p>
+            </div>
+          </div>
+          
+          <div class="sbl-criteria-item">
+            <div class="sbl-criteria-icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <div class="sbl-criteria-text">
+              <h4>Business Entity</h4>
+              <p>Proprietorship, Partnership, Private Limited, or LLP registered in India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <!-- Text Side -->
-      <div class="overview-text">
-        <span class="text-primary fw-bold text-uppercase">Overview</span>
-        <h2 class="mb-4">Empower Your Business Vision</h2>
-        <p class="mb-4">
-          Don't let capital shortage stall your growth. Our Secured Business Loan leverages your residential or commercial property 
-          to provide you with high-value funds at lower interest rates.
-        </p>
-        <p>
-          Whether you need to purchase new machinery, expand your workforce, or manage inventory, our tailored solutions 
-          ensure your cash flow remains healthy while you grow.
-        </p>
-        <ul class="list-unstyled mt-4">
-          <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Loans up to ₹5 Crores</li>
-          <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Flexible tenure up to 15 years</li>
-          <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Simplified documentation</li>
+<!-- ===== DOCUMENTS SECTION ===== -->
+<section class="sbl-documents">
+  <div class="sbl-container">
+    <div class="sbl-section-header">
+      <span class="sbl-tag">PAPERWORK</span>
+      <h2>Required Documents</h2>
+      <p>Keep these documents ready for quick loan processing</p>
+    </div>
+    
+    <div class="sbl-documents-wrapper">
+      <div class="sbl-doc-category">
+        <div class="sbl-doc-header">
+          <div class="sbl-doc-icon-large">
+            <i class="fas fa-id-card"></i>
+          </div>
+          <h3>KYC Documents</h3>
+        </div>
+        <ul class="sbl-doc-list">
+          <li><i class="fas fa-check"></i> PAN Card of business and all directors/partners</li>
+          <li><i class="fas fa-check"></i> Aadhaar Card of all promoters</li>
+          <li><i class="fas fa-check"></i> Passport, Voter ID, or Driving License</li>
+          <li><i class="fas fa-check"></i> Photograph of all applicants</li>
+        </ul>
+      </div>
+      
+      <div class="sbl-doc-category">
+        <div class="sbl-doc-header">
+          <div class="sbl-doc-icon-large">
+            <i class="fas fa-file-invoice"></i>
+          </div>
+          <h3>Business Documents</h3>
+        </div>
+        <ul class="sbl-doc-list">
+          <li><i class="fas fa-check"></i> Business registration certificate</li>
+          <li><i class="fas fa-check"></i> GST registration certificate</li>
+          <li><i class="fas fa-check"></i> Partnership deed or MOA/AOA</li>
+          <li><i class="fas fa-check"></i> Business address proof</li>
+        </ul>
+      </div>
+      
+      <div class="sbl-doc-category">
+        <div class="sbl-doc-header">
+          <div class="sbl-doc-icon-large">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <h3>Financial Documents</h3>
+        </div>
+        <ul class="sbl-doc-list">
+          <li><i class="fas fa-check"></i> Last 3 years ITR with computation</li>
+          <li><i class="fas fa-check"></i> Audited financial statements (P&L, Balance Sheet)</li>
+          <li><i class="fas fa-check"></i> Last 6 months bank statements</li>
+          <li><i class="fas fa-check"></i> GST returns for last 1 year</li>
+        </ul>
+      </div>
+      
+      <div class="sbl-doc-category">
+        <div class="sbl-doc-header">
+          <div class="sbl-doc-icon-large">
+            <i class="fas fa-building"></i>
+          </div>
+          <h3>Property Documents</h3>
+        </div>
+        <ul class="sbl-doc-list">
+          <li><i class="fas fa-check"></i> Property title deed and chain documents</li>
+          <li><i class="fas fa-check"></i> Property tax receipts</li>
+          <li><i class="fas fa-check"></i> Approved building plan</li>
+          <li><i class="fas fa-check"></i> NOC from society (if applicable)</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= Zig-Zag Benefits ================= -->
-<section class="benefits-zigzag">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h2>Why Choose Us?</h2>
-      <p class="text-muted">Designed for the modern entrepreneur.</p>
-    </div>
-
-    <!-- Row 1 -->
-    <div class="zigzag-row">
-      <div class="zigzag-content">
-        <div class="zigzag-icon"><i class="fas fa-percent"></i></div>
-        <h3>Lower Interest Rates</h3>
-        <p>Since your loan is backed by collateral, we offer some of the most competitive interest rates in the market, significantly reducing your monthly outflow.</p>
+<!-- ===== RATES & CHARGES SECTION ===== -->
+<section class="sbl-rates">
+  <div class="sbl-container">
+    <div class="sbl-rates-layout">
+      <div class="sbl-rates-content">
+        <span class="sbl-tag sbl-tag-white">TRANSPARENT PRICING</span>
+        <h2>Interest Rates & Charges</h2>
+        <p>No hidden fees. No surprises. Complete transparency in all our charges and terms.</p>
+        <a href="#contact" class="sbl-btn sbl-btn-white-outline">
+          Get Detailed Quote <i class="fas fa-arrow-right"></i>
+        </a>
       </div>
-      <div class="zigzag-image">
-        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Low Interest">
-      </div>
-    </div>
-
-    <!-- Row 2 (Reverse) -->
-    <div class="zigzag-row reverse">
-      <div class="zigzag-content">
-        <div class="zigzag-icon"><i class="fas fa-calendar-alt"></i></div>
-        <h3>Flexible Repayment</h3>
-        <p>We understand business cycles. Choose a repayment tenure from 1 to 15 years that aligns with your projected cash flow and profitability.</p>
-      </div>
-      <div class="zigzag-image">
-        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Flexible Repayment">
-      </div>
-    </div>
-
-    <!-- Row 3 -->
-    <div class="zigzag-row">
-      <div class="zigzag-content">
-        <div class="zigzag-icon"><i class="fas fa-rocket"></i></div>
-        <h3>Speed & Transparency</h3>
-        <p>No hidden charges, no complex jargon. Our digital-first process ensures your loan is approved and disbursed faster than traditional banks.</p>
-      </div>
-      <div class="zigzag-image">
-        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Speed">
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ================= Vertical Timeline Process ================= -->
-<section class="process-timeline-section">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h2>Simple 4-Step Process</h2>
-      <p>From application to disbursal in record time.</p>
-    </div>
-
-    <div class="timeline-container">
-      <!-- Step 1 -->
-      <div class="timeline-item">
-        <div class="timeline-dot">1</div>
-        <div class="timeline-content">
-          <h4>Online Application</h4>
-          <p>Fill out a short form with your business details and loan requirement.</p>
-        </div>
-      </div>
-
-      <!-- Step 2 -->
-      <div class="timeline-item">
-        <div class="timeline-dot">2</div>
-        <div class="timeline-content">
-          <h4>Document Upload</h4>
-          <p>Upload basic KYC, financial documents, and property papers securely.</p>
-        </div>
-      </div>
-
-      <!-- Step 3 -->
-      <div class="timeline-item">
-        <div class="timeline-dot">3</div>
-        <div class="timeline-content">
-          <h4>Verification & Valuation</h4>
-          <p>Our team visits for a quick verification and property valuation.</p>
-        </div>
-      </div>
-
-      <!-- Step 4 -->
-      <div class="timeline-item">
-        <div class="timeline-dot">4</div>
-        <div class="timeline-content">
-          <h4>Disbursal</h4>
-          <p>Sign the agreement and get funds credited to your account instantly.</p>
-        </div>
+      
+      <div class="sbl-rates-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Interest Rate</td>
+              <td><strong>9.00% - 13.00% p.a.</strong></td>
+            </tr>
+            <tr>
+              <td>Processing Fee</td>
+              <td><strong>Up to 1.5% of loan amount</strong></td>
+            </tr>
+            <tr>
+              <td>Loan Amount</td>
+              <td><strong>₹25 Lakhs to ₹5 Crores</strong></td>
+            </tr>
+            <tr>
+              <td>Tenure</td>
+              <td><strong>1 to 15 years</strong></td>
+            </tr>
+            <tr>
+              <td>LTV Ratio</td>
+              <td><strong>Up to 70% of property value</strong></td>
+            </tr>
+            <tr>
+              <td>Prepayment Charges</td>
+              <td><strong>Nil after 6 months (floating rate)</strong></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= Eligibility & Documents (Compact) ================= -->
-<section class="eligibility-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 mb-4">
-        <h3>Eligibility Criteria</h3>
-        <ul class="list-group list-group-flush mt-3">
-          <li class="list-group-item bg-transparent"><i class="fas fa-check text-success me-2"></i> Business Vintage > 3 Years</li>
-          <li class="list-group-item bg-transparent"><i class="fas fa-check text-success me-2"></i> Annual Turnover > ₹50 Lakhs</li>
-          <li class="list-group-item bg-transparent"><i class="fas fa-check text-success me-2"></i> Profit making for last 2 years</li>
-          <li class="list-group-item bg-transparent"><i class="fas fa-check text-success me-2"></i> CIBIL Score > 700</li>
-        </ul>
+<!-- ===== APPLICATION PROCESS ===== -->
+<section class="sbl-process">
+  <div class="sbl-container">
+    <div class="sbl-section-header">
+      <span class="sbl-tag">HOW IT WORKS</span>
+      <h2>Simple Application Process</h2>
+      <p>From application to disbursal in just 4 easy steps</p>
+    </div>
+    
+    <div class="sbl-process-grid">
+      <div class="sbl-process-card">
+        <div class="sbl-process-number">1</div>
+        <div class="sbl-process-icon">
+          <i class="fas fa-edit"></i>
+        </div>
+        <h4>Apply Online</h4>
+        <p>Complete our simple online application form with your business and property details</p>
       </div>
-      <div class="col-lg-6">
-        <h3>Required Documents</h3>
-        <div class="accordion mt-3" id="docsAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                KYC Documents
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#docsAccordion">
-              <div class="accordion-body">PAN, Aadhar, Voter ID of all directors/partners.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                Financials
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#docsAccordion">
-              <div class="accordion-body">Last 3 years ITR, Audited Balance Sheet, P&L.</div>
-            </div>
-          </div>
+      
+      <div class="sbl-process-card">
+        <div class="sbl-process-number">2</div>
+        <div class="sbl-process-icon">
+          <i class="fas fa-file-upload"></i>
+        </div>
+        <h4>Submit Documents</h4>
+        <p>Upload required documents through our secure digital platform</p>
+      </div>
+      
+      <div class="sbl-process-card">
+        <div class="sbl-process-number">3</div>
+        <div class="sbl-process-icon">
+          <i class="fas fa-search-dollar"></i>
+        </div>
+        <h4>Property Valuation</h4>
+        <p>Our team conducts property evaluation and document verification</p>
+      </div>
+      
+      <div class="sbl-process-card">
+        <div class="sbl-process-number">4</div>
+        <div class="sbl-process-icon">
+          <i class="fas fa-check-double"></i>
+        </div>
+        <h4>Approval & Disbursal</h4>
+        <p>Get approval within 48-72 hours and funds credited to your account</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="sbl-faq">
+  <div class="sbl-container">
+    <div class="sbl-section-header">
+      <span class="sbl-tag">FAQ</span>
+      <h2>Frequently Asked Questions</h2>
+      <p>Find answers to common queries about secured business loans</p>
+    </div>
+    
+    <div class="sbl-faq-wrapper">
+      <div class="sbl-faq-item active" data-testid="faq-item-1">
+        <button class="sbl-faq-question" onclick="toggleSBLFAQ(this)">
+          <span>What is a Secured Business Loan?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="sbl-faq-answer">
+          <p>A secured business loan is a financing option where you pledge your residential, commercial, or industrial property as collateral to secure substantial funding for your business needs at competitive interest rates.</p>
+        </div>
+      </div>
+      
+      <div class="sbl-faq-item" data-testid="faq-item-2">
+        <button class="sbl-faq-question" onclick="toggleSBLFAQ(this)">
+          <span>How much can I borrow against my property?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="sbl-faq-answer">
+          <p>You can typically borrow up to 70% of your property's current market value. The actual loan amount depends on property valuation, your business financials, and repayment capacity, with loans ranging from ₹25 lakhs to ₹5 crores.</p>
+        </div>
+      </div>
+      
+      <div class="sbl-faq-item" data-testid="faq-item-3">
+        <button class="sbl-faq-question" onclick="toggleSBLFAQ(this)">
+          <span>Can I use any type of property as collateral?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="sbl-faq-answer">
+          <p>Yes, we accept residential properties (houses, apartments), commercial properties (offices, shops, warehouses), and industrial properties as collateral. The property must have clear title and be free from legal disputes.</p>
+        </div>
+      </div>
+      
+      <div class="sbl-faq-item" data-testid="faq-item-4">
+        <button class="sbl-faq-question" onclick="toggleSBLFAQ(this)">
+          <span>What is the typical interest rate?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="sbl-faq-answer">
+          <p>Interest rates for secured business loans typically range from 9% to 13% p.a., depending on factors like your credit score, business financials, property value, and loan tenure. Property collateral helps secure lower rates compared to unsecured loans.</p>
+        </div>
+      </div>
+      
+      <div class="sbl-faq-item" data-testid="faq-item-5">
+        <button class="sbl-faq-question" onclick="toggleSBLFAQ(this)">
+          <span>How long does the approval process take?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="sbl-faq-answer">
+          <p>Once all documents are submitted and property evaluation is completed, we typically provide loan approval within 48-72 hours. Disbursal happens within 2-3 working days after approval and documentation completion.</p>
+        </div>
+      </div>
+      
+      <div class="sbl-faq-item" data-testid="faq-item-6">
+        <button class="sbl-faq-question" onclick="toggleSBLFAQ(this)">
+          <span>Can I prepay the loan without penalties?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="sbl-faq-answer">
+          <p>For floating rate loans, prepayment is typically allowed without charges after 6 months from disbursal. For fixed rate loans, minimal prepayment charges may apply. Check your loan agreement for specific terms.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= Interest Table ================= -->
-<section class="interest-section">
-  <div class="container">
-    <h2 class="text-center mb-5">Indicative Repayment Schedule</h2>
-    <div class="table-responsive">
-      <table class="table table-dark table-hover text-center">
-        <thead>
-          <tr>
-            <th>Loan Amount</th>
-            <th>Tenure</th>
-            <th>Interest Rate</th>
-            <th>EMI</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>₹ 10 Lakhs</td><td>5 Years</td><td>9.5%</td><td>₹ 21,002</td></tr>
-          <tr><td>₹ 25 Lakhs</td><td>7 Years</td><td>9.5%</td><td>₹ 40,935</td></tr>
-          <tr><td>₹ 50 Lakhs</td><td>10 Years</td><td>9.0%</td><td>₹ 63,338</td></tr>
-        </tbody>
-      </table>
+<!-- ===== CTA SECTION ===== -->
+<section class="sbl-cta">
+  <div class="sbl-container">
+    <div class="sbl-cta-box">
+      <h2>Ready to Grow Your Business?</h2>
+      <p>Get the capital you need to take your business to the next level</p>
+      <a href="#contact" class="sbl-btn sbl-btn-white">
+        Apply for Loan Now <i class="fas fa-arrow-right"></i>
+      </a>
     </div>
   </div>
 </section>
 
-<!-- ================= Contact CTA Footer ================= -->
-<section class="cta-footer">
-  <div class="container">
-    <h2>Ready to Scale Up?</h2>
-    <p class="mb-4">Get a customized loan offer for your business today.</p>
-    <a href="<?php echo $base_url; ?>contact.php" class="btn btn-light btn-lg rounded-pill px-5 fw-bold">Apply Now</a>
-  </div>
-</section>
+<script>
+function toggleSBLFAQ(button) {
+  const faqItem = button.parentElement;
+  const answer = faqItem.querySelector('.sbl-faq-answer');
+  const isActive = faqItem.classList.contains('active');
+  
+  // Close all FAQ items
+  document.querySelectorAll('.sbl-faq-item').forEach(item => {
+    item.classList.remove('active');
+    item.querySelector('.sbl-faq-answer').style.maxHeight = '0';
+  });
+  
+  // Open clicked FAQ if it wasn't active
+  if (!isActive) {
+    faqItem.classList.add('active');
+    answer.style.maxHeight = answer.scrollHeight + 'px';
+  }
+}
+</script>
 
-
-
-<?php include '../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>

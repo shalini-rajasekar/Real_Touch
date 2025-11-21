@@ -1,446 +1,427 @@
 <?php include __DIR__ . '/../includes/header.php'; ?>
 
-<!-- Link to LAP Specific CSS -->
 <link rel="stylesheet" href="../assets/css/lap.css">
 
-<!-- ================= HERO SECTION ================= -->
+<!-- ===== HERO SECTION ===== -->
 <section class="lap-hero">
-    <div class="lap-hero-bg">
-        <div class="gradient-overlay"></div>
-        <!-- Abstract Shapes -->
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
+  <div class="lap-hero-bg">
+    <div class="shape-circle circle-1"></div>
+    <div class="shape-circle circle-2"></div>
+    <div class="shape-circle circle-3"></div>
+  </div>
+  
+  <div class="lap-hero-container">
+    <div class="lap-hero-content">
+      <div class="lap-hero-badge">
+        <i class="fas fa-home"></i>
+        <span>Property-Backed Financing</span>
+      </div>
+      <h1>Loan Against Property</h1>
+      <p>Unlock the value of your property with flexible financing solutions. Get high-value loans at competitive interest rates with minimal documentation.</p>
+      
+      <div class="lap-hero-buttons">
+        <a href="#contact" class="lap-btn lap-btn-primary">
+          Apply Now <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#eligibility" class="lap-btn lap-btn-secondary">
+          Check Eligibility
+        </a>
+      </div>
+      
+      <div class="lap-hero-stats">
+        <div class="lap-stat-item">
+          <h3>₹5 Cr</h3>
+          <p>Maximum Loan</p>
+        </div>
+        <div class="lap-stat-item">
+          <h3>8.5%</h3>
+          <p>Interest Rate</p>
+        </div>
+        <div class="lap-stat-item">
+          <h3>15 Years</h3>
+          <p>Flexible Tenure</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BENEFITS SECTION ===== -->
+<section class="lap-benefits">
+  <div class="lap-container">
+    <div class="lap-section-header">
+      <span class="lap-tag">KEY ADVANTAGES</span>
+      <h2>Why Choose Our Loan Against Property?</h2>
+      <p>Leverage your property to unlock substantial funding for your business or personal needs</p>
     </div>
     
-    <div class="container lap-hero-content">
-        <div class="row align-items-center">
-            <div class="col-lg-7 col-md-12 hero-text fade-up">
-                <span class="hero-badge"><i class="fa-solid fa-house-circle-check"></i> Unlock Your Property's Value</span>
-                <h1>Get Instant Funds with <br><span>Loan Against Property</span></h1>
-                <p>Leverage your residential or commercial property to get high-value loans at low interest rates. Quick approval, flexible tenure, and maximum funding.</p>
-                
-                <div class="hero-btns">
-                    <a href="#contact" class="cta-btn primary-btn">Apply Now <i class="fa-solid fa-arrow-right"></i></a>
-                    <a href="#eligibility" class="cta-btn secondary-btn">Check Eligibility</a>
-                </div>
-
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <h4>₹5 Cr+</h4>
-                        <p>Max Loan Amount</p>
-                    </div>
-                    <div class="stat-item">
-                        <h4>72 Hrs</h4>
-                        <p>Quick Disbursal</p>
-                    </div>
-                    <div class="stat-item">
-                        <h4>15 Yrs</h4>
-                        <p>Flexible Tenure</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-5 col-md-12 hero-image fade-in-right">
-                <div class="image-wrapper">
-                    <img src="../assets/images/lap-hero.png" alt="Loan Against Property" onerror="this.src='https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
-                    <div class="floating-card card-1">
-                        <i class="fa-solid fa-percent"></i>
-                        <div>
-                            <span>Interest Starting</span>
-                            <strong>8.50% p.a.</strong>
-                        </div>
-                    </div>
-                    <div class="floating-card card-2">
-                        <i class="fa-solid fa-check-double"></i>
-                        <div>
-                            <span>Approval</span>
-                            <strong>Hassle-free</strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="lap-benefits-grid">
+      <div class="lap-benefit-card">
+        <div class="lap-benefit-icon">
+          <i class="fas fa-coins"></i>
         </div>
+        <h3>High Loan Value</h3>
+        <p>Get up to 75% of your property's market value as loan amount, enabling you to access substantial funds for major investments.</p>
+      </div>
+      
+      <div class="lap-benefit-card">
+        <div class="lap-benefit-icon">
+          <i class="fas fa-percent"></i>
+        </div>
+        <h3>Lower Interest Rates</h3>
+        <p>Enjoy competitive interest rates starting from 8.5% p.a., significantly lower than unsecured loans due to property collateral.</p>
+      </div>
+      
+      <div class="lap-benefit-card">
+        <div class="lap-benefit-icon">
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <h3>Extended Tenure</h3>
+        <p>Choose repayment tenure up to 15 years, giving you flexibility to manage your EMI according to your financial capacity.</p>
+      </div>
+      
+      <div class="lap-benefit-card">
+        <div class="lap-benefit-icon">
+          <i class="fas fa-bolt"></i>
+        </div>
+        <h3>Quick Approval</h3>
+        <p>Fast processing with digital documentation support. Get your loan approved and disbursed within 72 hours of submission.</p>
+      </div>
+      
+      <div class="lap-benefit-card">
+        <div class="lap-benefit-icon">
+          <i class="fas fa-file-alt"></i>
+        </div>
+        <h3>Minimal Documentation</h3>
+        <p>Simple paperwork with easy online application process. No complex procedures or hidden charges involved.</p>
+      </div>
+      
+      <div class="lap-benefit-card">
+        <div class="lap-benefit-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h3>Property Remains Yours</h3>
+        <p>Continue using your property while availing the loan. Only the property documents are held as security with the lender.</p>
+      </div>
     </div>
+  </div>
 </section>
 
-<!-- ================= BENEFITS SECTION ================= -->
-<section class="lap-benefits section-padding">
-    <div class="container">
-        <div class="section-header text-center fade-up">
-            <span class="sub-title">KEY ADVANTAGES</span>
-            <h2>Why Choose Our LAP?</h2>
-            <p>Maximize the potential of your property with our feature-rich loan solutions.</p>
+<!-- ===== ELIGIBILITY SECTION ===== -->
+<section class="lap-eligibility" id="eligibility">
+  <div class="lap-container">
+    <div class="lap-eligibility-wrapper">
+      <div class="lap-eligibility-content">
+        <span class="lap-tag">ELIGIBILITY</span>
+        <h2>Who Can Apply?</h2>
+        <p>Check our simple eligibility criteria for Loan Against Property</p>
+        
+        <div class="lap-eligibility-list">
+          <div class="lap-eligibility-item">
+            <div class="lap-check-icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="lap-eligibility-text">
+              <h4>Age Criteria</h4>
+              <p>Applicant should be between 23 to 65 years of age</p>
+            </div>
+          </div>
+          
+          <div class="lap-eligibility-item">
+            <div class="lap-check-icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="lap-eligibility-text">
+              <h4>Income Requirement</h4>
+              <p>Minimum monthly income of ₹30,000 for salaried or ₹50,000 turnover for self-employed</p>
+            </div>
+          </div>
+          
+          <div class="lap-eligibility-item">
+            <div class="lap-check-icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="lap-eligibility-text">
+              <h4>Property Type</h4>
+              <p>Residential, commercial, or industrial property with clear title</p>
+            </div>
+          </div>
+          
+          <div class="lap-eligibility-item">
+            <div class="lap-check-icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="lap-eligibility-text">
+              <h4>Credit Score</h4>
+              <p>Minimum CIBIL score of 700 or above preferred</p>
+            </div>
+          </div>
+          
+          <div class="lap-eligibility-item">
+            <div class="lap-check-icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="lap-eligibility-text">
+              <h4>Employment Status</h4>
+              <p>Salaried with 3+ years experience or self-employed with 5+ years business vintage</p>
+            </div>
+          </div>
+          
+          <div class="lap-eligibility-item">
+            <div class="lap-check-icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="lap-eligibility-text">
+              <h4>Property Ownership</h4>
+              <p>Applicant must be the legal owner of the property being mortgaged</p>
+            </div>
+          </div>
         </div>
-
-        <div class="benefits-grid">
-            <!-- Card 1 -->
-            <div class="benefit-card fade-up" data-delay="100">
-                <div class="icon-box">
-                    <i class="fa-solid fa-sack-dollar"></i>
-                </div>
-                <h3>High Loan Amount</h3>
-                <p>Get up to 75% of your property’s market value as a loan to meet your big financial goals.</p>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="benefit-card fade-up" data-delay="200">
-                <div class="icon-box">
-                    <i class="fa-solid fa-percent"></i>
-                </div>
-                <h3>Low Interest Rates</h3>
-                <p>Enjoy competitive interest rates starting from just 8.50% p.a. with flexible repayment options.</p>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="benefit-card fade-up" data-delay="300">
-                <div class="icon-box">
-                    <i class="fa-solid fa-calendar-days"></i>
-                </div>
-                <h3>Long Tenure</h3>
-                <p>Repay comfortably over a tenure of up to 15 years, reducing your monthly EMI burden.</p>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="benefit-card fade-up" data-delay="400">
-                <div class="icon-box">
-                    <i class="fa-solid fa-bolt"></i>
-                </div>
-                <h3>Quick Processing</h3>
-                <p>Experience a seamless digital process with minimal documentation and fast disbursal.</p>
-            </div>
+      </div>
+      
+      <div class="lap-eligibility-image">
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80" alt="Property">
+        <div class="lap-floating-badge">
+          <div class="lap-badge-content">
+            <span>Approval Rate</span>
+            <h3>98%</h3>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<!-- ================= ELIGIBILITY SECTION ================= -->
-<section class="lap-eligibility section-padding" id="eligibility">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 fade-right">
-                <div class="eligibility-img">
-                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Eligibility">
-                    <div class="exp-badge">
-                        <h3>99%</h3>
-                        <p>Approval Rate</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 fade-left">
-                <div class="eligibility-wrapper">
-                    <div class="eligibility-header mb-4">
-                        <span class="sub-title">WHO CAN APPLY</span>
-                        <h2>Eligibility Criteria</h2>
-                        <p>Simple and transparent eligibility requirements for both salaried and self-employed individuals.</p>
-                    </div>
-
-                    <div class="eligibility-tabs-modern">
-                        <button class="tab-btn-modern active" data-tab="salaried">
-                            <i class="fa-solid fa-user-tie"></i> Salaried
-                        </button>
-                        <button class="tab-btn-modern" data-tab="self-employed">
-                            <i class="fa-solid fa-briefcase"></i> Self-Employed
-                        </button>
-                    </div>
-
-                    <div class="tab-content active" id="salaried">
-                        <div class="criteria-grid">
-                            <div class="criteria-item">
-                                <div class="c-icon"><i class="fa-solid fa-cake-candles"></i></div>
-                                <div class="c-text">
-                                    <strong>Age Range</strong>
-                                    <span>23 to 60 years</span>
-                                </div>
-                            </div>
-                            <div class="criteria-item">
-                                <div class="c-icon"><i class="fa-solid fa-wallet"></i></div>
-                                <div class="c-text">
-                                    <strong>Min Income</strong>
-                                    <span>₹25,000 / month</span>
-                                </div>
-                            </div>
-                            <div class="criteria-item">
-                                <div class="c-icon"><i class="fa-solid fa-briefcase"></i></div>
-                                <div class="c-text">
-                                    <strong>Experience</strong>
-                                    <span>Min 3 years total</span>
-                                </div>
-                            </div>
-                            <div class="criteria-item">
-                                <div class="c-icon"><i class="fa-solid fa-building"></i></div>
-                                <div class="c-text">
-                                    <strong>Property Type</strong>
-                                    <span>Residential / Commercial</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-content" id="self-employed">
-                        <div class="criteria-grid">
-                            <div class="criteria-item">
-                                <div class="c-icon"><i class="fa-solid fa-cake-candles"></i></div>
-                                <div class="c-text">
-                                    <strong>Age Range</strong>
-                                    <span>25 to 70 years</span>
-                                </div>
-                            </div>
-                            <div class="criteria-item">
-                                <div class="c-icon"><i class="fa-solid fa-chart-line"></i></div>
-                                <div class="c-text">
-                                    <strong>Business Vintage</strong>
-                                    <span>Min 3 years continuity</span>
-                                </div>
-                            </div>
-                            <div class="criteria-item">
-                                <div class="c-icon"><i class="fa-solid fa-file-invoice"></i></div>
-                                <div class="c-text">
-                                    <strong>ITR Filing</strong>
-                                    <span>Filed for last 2 years</span>
-                                </div>
-                            </div>
-                            <div class="criteria-item">
-                                <div class="c-icon"><i class="fa-solid fa-city"></i></div>
-                                <div class="c-text">
-                                    <strong>Property Type</strong>
-                                    <span>Resi / Comm / Industrial</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="#contact" class="cta-btn primary-btn mt-4">Check Your Eligibility</a>
-                </div>
-            </div>
-        </div>
+<!-- ===== DOCUMENTS SECTION ===== -->
+<section class="lap-documents">
+  <div class="lap-container">
+    <div class="lap-section-header">
+      <span class="lap-tag">REQUIREMENTS</span>
+      <h2>Documents Required</h2>
+      <p>Keep these documents ready for smooth and quick processing</p>
     </div>
+    
+    <div class="lap-documents-grid">
+      <div class="lap-document-card">
+        <div class="lap-doc-number">01</div>
+        <div class="lap-doc-icon">
+          <i class="fas fa-id-card"></i>
+        </div>
+        <h4>Identity Proof</h4>
+        <ul>
+          <li>PAN Card (mandatory)</li>
+          <li>Aadhaar Card</li>
+          <li>Passport or Voter ID</li>
+          <li>Driving License</li>
+        </ul>
+      </div>
+      
+      <div class="lap-document-card">
+        <div class="lap-doc-number">02</div>
+        <div class="lap-doc-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <h4>Address Proof</h4>
+        <ul>
+          <li>Latest Utility Bills</li>
+          <li>Bank Statement</li>
+          <li>Rent Agreement</li>
+          <li>Property Documents</li>
+        </ul>
+      </div>
+      
+      <div class="lap-document-card">
+        <div class="lap-doc-number">03</div>
+        <div class="lap-doc-icon">
+          <i class="fas fa-money-check-alt"></i>
+        </div>
+        <h4>Income Proof</h4>
+        <ul>
+          <li>Last 6 months salary slips</li>
+          <li>Last 2 years ITR</li>
+          <li>Bank statements (6 months)</li>
+          <li>Form 16 or Audited Financials</li>
+        </ul>
+      </div>
+      
+      <div class="lap-document-card">
+        <div class="lap-doc-number">04</div>
+        <div class="lap-doc-icon">
+          <i class="fas fa-building"></i>
+        </div>
+        <h4>Property Papers</h4>
+        <ul>
+          <li>Sale Deed / Title Deed</li>
+          <li>Property Tax Receipts</li>
+          <li>Approved Building Plan</li>
+          <li>NOC from Society (if applicable)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- ================= DOCUMENTS REQUIRED ================= -->
-<section class="lap-documents section-padding bg-light">
-    <div class="container">
-        <div class="section-header text-center fade-up">
-            <span class="sub-title">PAPERWORK</span>
-            <h2>Documents Required</h2>
-            <p>Keep these documents handy for a smooth application process.</p>
-        </div>
-
-        <div class="docs-grid">
-            <!-- KYC -->
-            <div class="doc-card fade-up">
-                <div class="doc-icon"><i class="fa-solid fa-id-card"></i></div>
-                <h4>KYC Documents</h4>
-                <ul>
-                    <li>Aadhar Card / PAN Card</li>
-                    <li>Voter ID / Passport</li>
-                    <li>Current Address Proof</li>
-                </ul>
-            </div>
-
-            <!-- Income -->
-            <div class="doc-card fade-up" data-delay="100">
-                <div class="doc-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
-                <h4>Income Proof</h4>
-                <ul>
-                    <li>Last 3 Months Salary Slips</li>
-                    <li>Last 6 Months Bank Statement</li>
-                    <li>Form 16 / ITR (2 Years)</li>
-                </ul>
-            </div>
-
-            <!-- Property -->
-            <div class="doc-card fade-up" data-delay="200">
-                <div class="doc-icon"><i class="fa-solid fa-house-chimney"></i></div>
-                <h4>Property Documents</h4>
-                <ul>
-                    <li>Title Deeds (Chain of Documents)</li>
-                    <li>Latest Property Tax Receipt</li>
-                    <li>Approved Building Plan</li>
-                </ul>
-            </div>
-        </div>
+<!-- ===== PROCESS SECTION ===== -->
+<section class="lap-process">
+  <div class="lap-container">
+    <div class="lap-section-header">
+      <span class="lap-tag">SIMPLE STEPS</span>
+      <h2>Application Process</h2>
+      <p>Get your loan in 4 simple steps</p>
     </div>
+    
+    <div class="lap-process-timeline">
+      <div class="lap-process-step">
+        <div class="lap-step-number">1</div>
+        <div class="lap-step-content">
+          <div class="lap-step-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h4>Submit Application</h4>
+          <p>Fill out our simple online form with your basic details and property information</p>
+        </div>
+      </div>
+      
+      <div class="lap-process-step">
+        <div class="lap-step-number">2</div>
+        <div class="lap-step-content">
+          <div class="lap-step-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h4>Property Evaluation</h4>
+          <p>Our experts will conduct a thorough valuation of your property</p>
+        </div>
+      </div>
+      
+      <div class="lap-process-step">
+        <div class="lap-step-number">3</div>
+        <div class="lap-step-content">
+          <div class="lap-step-icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <h4>Verification & Approval</h4>
+          <p>Quick document verification and loan approval within 48-72 hours</p>
+        </div>
+      </div>
+      
+      <div class="lap-process-step">
+        <div class="lap-step-number">4</div>
+        <div class="lap-step-content">
+          <div class="lap-step-icon">
+            <i class="fas fa-hand-holding-usd"></i>
+          </div>
+          <h4>Loan Disbursal</h4>
+          <p>Funds transferred directly to your bank account post approval</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- ================= PROCESS STEPS ================= -->
-<section class="lap-process section-padding">
-    <div class="container">
-        <div class="section-header text-center fade-up">
-            <span class="sub-title">SIMPLE WORKFLOW</span>
-            <h2>How It Works</h2>
-        </div>
-
-        <div class="process-steps">
-            <div class="step-item fade-up">
-                <div class="step-number">01</div>
-                <div class="step-icon"><i class="fa-solid fa-file-pen"></i></div>
-                <h4>Application</h4>
-                <p>Fill out the online form with basic details.</p>
-            </div>
-            <div class="step-line"></div>
-            <div class="step-item fade-up" data-delay="100">
-                <div class="step-number">02</div>
-                <div class="step-icon"><i class="fa-solid fa-magnifying-glass-location"></i></div>
-                <h4>Valuation</h4>
-                <p>Our experts evaluate your property value.</p>
-            </div>
-            <div class="step-line"></div>
-            <div class="step-item fade-up" data-delay="200">
-                <div class="step-number">03</div>
-                <div class="step-icon"><i class="fa-solid fa-file-signature"></i></div>
-                <h4>Approval</h4>
-                <p>Loan sanctioned after document verification.</p>
-            </div>
-            <div class="step-line"></div>
-            <div class="step-item fade-up" data-delay="300">
-                <div class="step-number">04</div>
-                <div class="step-icon"><i class="fa-solid fa-money-bill-transfer"></i></div>
-                <h4>Disbursal</h4>
-                <p>Funds credited directly to your account.</p>
-            </div>
-        </div>
+<!-- ===== FAQ SECTION ===== -->
+<section class="lap-faq">
+  <div class="lap-container">
+    <div class="lap-section-header">
+      <span class="lap-tag">FAQ</span>
+      <h2>Frequently Asked Questions</h2>
+      <p>Find answers to common questions about Loan Against Property</p>
     </div>
+    
+    <div class="lap-faq-wrapper">
+      <div class="lap-faq-item active" data-testid="faq-item-1">
+        <button class="lap-faq-question" onclick="toggleLAPFAQ(this)">
+          <span>What is the maximum loan amount I can get against my property?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="lap-faq-answer">
+          <p>You can avail up to 75% of your property's market value as loan. The maximum loan amount can go up to ₹5 crores depending on the property valuation and your repayment capacity.</p>
+        </div>
+      </div>
+      
+      <div class="lap-faq-item" data-testid="faq-item-2">
+        <button class="lap-faq-question" onclick="toggleLAPFAQ(this)">
+          <span>Can I use the property while the loan is active?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="lap-faq-answer">
+          <p>Yes, you retain full ownership and usage rights of your property. Only the property documents are held by the lender as collateral security, which are returned upon full loan repayment.</p>
+        </div>
+      </div>
+      
+      <div class="lap-faq-item" data-testid="faq-item-3">
+        <button class="lap-faq-question" onclick="toggleLAPFAQ(this)">
+          <span>What types of properties are accepted for LAP?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="lap-faq-answer">
+          <p>We accept residential properties (self-occupied or rented), commercial properties (offices, shops), and industrial properties with clear and marketable title. The property must be free from any legal disputes.</p>
+        </div>
+      </div>
+      
+      <div class="lap-faq-item" data-testid="faq-item-4">
+        <button class="lap-faq-question" onclick="toggleLAPFAQ(this)">
+          <span>How long does it take to process the loan?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="lap-faq-answer">
+          <p>Once all required documents are submitted and property evaluation is completed, the loan approval typically takes 48-72 hours. Disbursal happens within 2-3 working days after approval.</p>
+        </div>
+      </div>
+      
+      <div class="lap-faq-item" data-testid="faq-item-5">
+        <button class="lap-faq-question" onclick="toggleLAPFAQ(this)">
+          <span>Are there any prepayment charges?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="lap-faq-answer">
+          <p>For floating rate loans, there are typically no prepayment charges. For fixed rate loans, minimal prepayment charges may apply as per loan agreement terms. Please check with our loan advisor for specific details.</p>
+        </div>
+      </div>
+      
+      <div class="lap-faq-item" data-testid="faq-item-6">
+        <button class="lap-faq-question" onclick="toggleLAPFAQ(this)">
+          <span>What is the minimum credit score required?</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="lap-faq-answer">
+          <p>A minimum CIBIL score of 700 is preferred for loan approval. However, we evaluate applications holistically considering your income stability, property value, and overall financial profile.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- ================= INTEREST RATES TABLE ================= -->
-<section class="lap-rates section-padding bg-dark-blue">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-5 text-white fade-right">
-                <span class="sub-title text-blue">TRANSPARENCY</span>
-                <h2 class="text-white">Interest Rates & Charges</h2>
-                <p class="text-light-gray">We believe in complete transparency. No hidden charges, no surprises. Here is a snapshot of our standard charges.</p>
-                <a href="#contact" class="cta-btn primary-btn mt-3">Enquire Now</a>
-            </div>
-            <div class="col-lg-7 fade-left">
-                <div class="rates-table-wrapper">
-                    <table class="rates-table">
-                        <thead>
-                            <tr>
-                                <th>Description</th>
-                                <th>Charges / Rate</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Interest Rate</td>
-                                <td>8.50% - 12.00% p.a.</td>
-                            </tr>
-                            <tr>
-                                <td>Processing Fee</td>
-                                <td>Up to 1% of Loan Amount</td>
-                            </tr>
-                            <tr>
-                                <td>Loan Tenure</td>
-                                <td>Up to 15 Years</td>
-                            </tr>
-                            <tr>
-                                <td>Pre-payment Charges</td>
-                                <td>Nil (for Floating Rate)</td>
-                            </tr>
-                            <tr>
-                                <td>LTV Ratio</td>
-                                <td>Up to 75% of Property Value</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
+<!-- ===== CTA SECTION ===== -->
+<section class="lap-cta">
+  <div class="lap-container">
+    <div class="lap-cta-content">
+      <h2>Ready to Unlock Your Property's Value?</h2>
+      <p>Get started with your Loan Against Property application today and access funds at competitive rates</p>
+      <a href="#contact" class="lap-btn lap-btn-white">
+        Apply Now <i class="fas fa-arrow-right"></i>
+      </a>
     </div>
+  </div>
 </section>
 
-<!-- ================= FAQ SECTION ================= -->
-<section class="lap-faq section-padding">
-    <div class="container">
-        <div class="section-header text-center fade-up">
-            <span class="sub-title">GOT QUESTIONS?</span>
-            <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <div class="faq-wrapper max-w-800 mx-auto">
-            <div class="faq-item active fade-up">
-                <div class="faq-question">
-                    <span>What properties are accepted for LAP?</span>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    <p>We accept residential (self-occupied or rented), commercial (offices, shops), and industrial properties as collateral for the loan.</p>
-                </div>
-            </div>
-
-            <div class="faq-item fade-up" data-delay="100">
-                <div class="faq-question">
-                    <span>How much loan can I get against my property?</span>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    <p>You can avail a loan of up to 75% of the market value of your property, depending on your eligibility and property evaluation.</p>
-                </div>
-            </div>
-
-            <div class="faq-item fade-up" data-delay="200">
-                <div class="faq-question">
-                    <span>Can I prepay my loan?</span>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    <p>Yes, you can prepay your loan. For floating rate loans given to individuals, there are usually no foreclosure charges.</p>
-                </div>
-            </div>
-            
-             <div class="faq-item fade-up" data-delay="300">
-                <div class="faq-question">
-                    <span>What is the processing time?</span>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    <p>Once all documents are submitted, we aim to disburse the loan within 72 hours, subject to verification and property valuation.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ================= CTA BANNER ================= -->
-<section class="lap-cta-banner">
-    <div class="container">
-        <div class="cta-box fade-up">
-            <div class="cta-content">
-                <h2>Ready to Unlock Your Property's Value?</h2>
-                <p>Get the best deal on Loan Against Property with Real Touch Finance.</p>
-            </div>
-            <div class="cta-action">
-                <a href="#contact" class="cta-btn white-btn">Get Started Now</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Simple Script for Tabs and Accordion -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Tabs
-    const tabBtns = document.querySelectorAll('.tab-btn-modern');
-    const tabContents = document.querySelectorAll('.tab-content');
-
-    tabBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            tabBtns.forEach(b => b.classList.remove('active'));
-            tabContents.forEach(c => c.classList.remove('active'));
-            
-            btn.classList.add('active');
-            document.getElementById(btn.dataset.tab).classList.add('active');
-        });
-    });
-
-    // FAQ
-    const faqItems = document.querySelectorAll('.faq-item');
-    faqItems.forEach(item => {
-        item.querySelector('.faq-question').addEventListener('click', () => {
-            item.classList.toggle('active');
-        });
-    });
-});
+function toggleLAPFAQ(button) {
+  const faqItem = button.parentElement;
+  const answer = faqItem.querySelector('.lap-faq-answer');
+  const isActive = faqItem.classList.contains('active');
+  
+  // Close all FAQ items
+  document.querySelectorAll('.lap-faq-item').forEach(item => {
+    item.classList.remove('active');
+    item.querySelector('.lap-faq-answer').style.maxHeight = '0';
+  });
+  
+  // Open clicked FAQ if it wasn't active
+  if (!isActive) {
+    faqItem.classList.add('active');
+    answer.style.maxHeight = answer.scrollHeight + 'px';
+  }
+}
 </script>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
