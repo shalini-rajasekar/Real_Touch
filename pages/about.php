@@ -19,7 +19,7 @@
     <div class="overview-grid">
       <div class="overview-img">
         <!-- Placeholder image, replace with actual if available or use generic -->
-        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Office Meeting">
+        <img src="../assets/images/overview/Growth.png" alt="Office Meeting">
       </div>
       <div class="overview-text">
         <span 
@@ -224,7 +224,7 @@
         </ul>
       </div>
       <div class="wcu-image">
-        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Handshake">
+        <img src="../assets/images/overview/Why .png" alt="Handshake">
       </div>
     </div>
   </div>
@@ -239,7 +239,7 @@
     <div class="team-grid">
       <div class="team-member">
         <div class="member-img">
-          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="CEO">
+          <img src="../assets/images/overview/men1.png" alt="CEO">
         </div>
         <div class="member-info">
           <h4>Rajesh Kumar</h4>
@@ -248,7 +248,7 @@
       </div>
       <div class="team-member">
         <div class="member-img">
-          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="CFO">
+          <img src="../assets/images/overview/women1.png" alt="CFO">
         </div>
         <div class="member-info">
           <h4>Anita Sharma</h4>
@@ -257,7 +257,7 @@
       </div>
       <div class="team-member">
         <div class="member-img">
-          <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="COO">
+          <img src="../assets/images/overview/men2.png" alt="COO">
         </div>
         <div class="member-info">
           <h4>David John</h4>
@@ -266,7 +266,7 @@
       </div>
       <div class="team-member">
         <div class="member-img">
-          <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="CTO">
+          <img src="../assets/images/overview/women2.png" alt="CTO">
         </div>
         <div class="member-info">
           <h4>Priya Menon</h4>

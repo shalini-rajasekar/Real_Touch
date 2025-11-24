@@ -17,7 +17,7 @@
         <span>Property-Backed Financing</span>
       </div>
       <h1>Loan Against Property</h1>
-      <p>Unlock the value of your property with flexible financing solutions. Get high-value loans at competitive interest rates with minimal documentation.</p>
+      <p>Unlock the value of your property with flexible financing solutions. Get high value loans at competitive interest rates with minimal documentation.</p>
       
       <div class="lap-hero-buttons">
         <a href="#contact" class="lap-btn lap-btn-primary">
@@ -157,7 +157,7 @@
             </div>
           </div>
           
-          <div class="lap-eligibility-item">
+          <!-- <div class="lap-eligibility-item">
             <div class="lap-check-icon">
               <i class="fas fa-check"></i>
             </div>
@@ -165,9 +165,9 @@
               <h4>Employment Status</h4>
               <p>Salaried with 3+ years experience or self-employed with 5+ years business vintage</p>
             </div>
-          </div>
+          </div> -->
           
-          <div class="lap-eligibility-item">
+          <!-- <div class="lap-eligibility-item">
             <div class="lap-check-icon">
               <i class="fas fa-check"></i>
             </div>
@@ -175,12 +175,12 @@
               <h4>Property Ownership</h4>
               <p>Applicant must be the legal owner of the property being mortgaged</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       
       <div class="lap-eligibility-image">
-        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80" alt="Property">
+        <img src="..\assets\images\lap\who_can.png" alt="Property">
         <div class="lap-floating-badge">
           <div class="lap-badge-content">
             <span>Approval Rate</span>

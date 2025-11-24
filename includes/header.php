@@ -57,7 +57,7 @@ if (strpos($current_script, '/pages/') !== false) {
                     <li><a href="<?php echo $basePath; ?>index.php">Home</a></li>
 
                     <li class="nav-item-dropdown">
-                        <a href="<?php echo $basePath; ?>products.php">Products <i class="fas fa-chevron-down"></i></a>
+                        <a href="<?php echo $basePath; ?>pages/personal-loan.php">Products <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu list-unstyled">
                             <li><a href="<?php echo $basePath; ?>pages/personal-loan.php">Personal Loan</a></li>
                             <li><a href="<?php echo $basePath; ?>pages/personal-loan-education.php">Personal Loan for Education</a></li>
@@ -77,9 +77,9 @@ if (strpos($current_script, '/pages/') !== false) {
                     </li>
 
                     <li class="nav-item-dropdown">
-                        <a href="<?php echo $basePath; ?>about.php">About Us <i class="fas fa-chevron-down"></i></a>
+                        <a href="<?php echo $basePath; ?>pages/about.php">About Us <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu list-unstyled">
-                            <li><a href="<?php echo $basePath; ?>pages/overview.php">Overview</a></li>
+                            <li><a href="<?php echo $basePath; ?>pages/about.php">Overview</a></li>
                             <li><a href="<?php echo $basePath; ?>pages/company-profile.php">Company Profile</a></li>
                             <li><a href="<?php echo $basePath; ?>pages/vision-mission.php">Vision & Mission</a></li>
                             <li><a href="<?php echo $basePath; ?>pages/board-of-directors.php">Board of Directors</a></li>

@@ -156,9 +156,11 @@
         </li>
       </ul>
     </div>
-    <div class="pl-eligibility-image">
-      <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=800&q=80" alt="Eligibility">
-    </div>
+   <div class="pl-eligibility-image">
+ <img src="../assets/images/personal_Loan/Eligibility .png" alt="Eligibility">
+
+</div>
+
   </div>
 </section>
 

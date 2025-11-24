@@ -46,7 +46,7 @@
     
     <div class="ple-hero-image" data-testid="hero-image">
       <div class="ple-image-wrapper">
-        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80" alt="Students studying" />
+        <img src="../assets/images/personal_loan_eduction/Students_studying.png" alt="Students studying" />
         <div class="ple-floating-card" data-testid="floating-card">
           <i class="fas fa-check-circle"></i>
           <div>
@@ -166,7 +166,7 @@
       
       <div class="ple-coverage-right">
         <div class="ple-coverage-image" data-testid="coverage-image">
-          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80" alt="Group study" />
+          <img src="..\assets\images\personal_loan_eduction\Education .png" alt="Group study" />
         </div>
       </div>
     </div>
@@ -549,9 +549,9 @@ preferred but not mandatory</p>
           <span>Apply Now</span>
           <i class="fas fa-arrow-right"></i>
         </a>
-        <a href="#" class="ple-btn-outline large" data-testid="cta-contact-btn">
+        <a href="tel:+919876543210" class="ple-btn-outline large" data-testid="cta-contact-btn">
           <i class="fas fa-phone"></i>
-          <span>Call Us +91 98765 43210</span>
+          <span>Call Us</span>
         </a>
       </div>
     </div>

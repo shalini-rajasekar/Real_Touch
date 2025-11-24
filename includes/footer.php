@@ -6,7 +6,7 @@
       <a href="<?php echo $basePath; ?>index.php" class="footer-logo">
         <img src="<?php echo $basePath; ?>assets/images/site_logo.png" alt="YourLogo"class="logo_site" width="140">
       </a>
-      <p class="footer-tagline">Empowering Businesses to Grow with Confidence</p>
+      <p class="footer-tagline">Empowering Businesses <br>to Grow with Confidence</p>
 
       <div class="footer-social">
         <a href="https://www.facebook.com/people/Real-Touch-Finance-Limited/100083566868664/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>

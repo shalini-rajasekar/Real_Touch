@@ -128,7 +128,7 @@
 </section>
 
 <!-- ===== LOAN COMPARISON SECTION ===== -->
-<section class="emi-comparison">
+<!-- <section class="emi-comparison">
   <div class="emi-container">
     <div class="emi-section-header">
       <span class="emi-tag">LOAN TYPES</span>
@@ -206,7 +206,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ===== HOW EMI WORKS ===== -->
 <section class="emi-how-works">
