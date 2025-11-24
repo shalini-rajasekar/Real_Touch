@@ -312,7 +312,7 @@
     <div class="project-left">
       <h2>Have A Project?<br>Let’s Talk</h2>
       <p>
-        Let’s collaborate to bring your vision to life. Whether it’s a fresh idea or an ongoing project, 
+        Let’s collaborate to bring your vision to life. Whether it’s a fresh idea or an ongoing project,
         our expert team is ready to design, develop, and deliver exceptional results together.
       </p>
 
@@ -451,25 +451,25 @@
 <!-- ==================== BUSINESS ISSUES – INTERACTIVE SLIDER ==================== -->
 
 <section class="case-studies-slider" id="case-studies">
-<!-- Floating Shapes – VISIBLE & BEAUTIFUL -->
-<div class="shapes-bg">
-  <!-- Blob (Top-Left) -->
-  <svg class="shape shape-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-    <path d="M50.3,-63.9C64.3,-55.3,74.8,-40.7,78.9,-24.5C83.1,-8.3,80.9,9.5,72.7,24.1C64.5,38.7,50.3,50.1,35.2,58.1C20.1,66.1,4.1,70.7,-12.2,67.5C-28.5,64.3,-44.9,53.3,-56.9,39.1C-68.9,24.9,-76.5,7.5,-75.8,-9.7C-75.1,-26.9,-66.1,-44.1,-52.5,-54.3C-38.9,-64.5,-20.9,-67.7,-3.3,-64.6C14.3,-61.5,28.6,-52.1,50.3,-63.9Z" fill="#3b82f6" opacity="0.15"/>
-  </svg>
+  <!-- Floating Shapes – VISIBLE & BEAUTIFUL -->
+  <div class="shapes-bg">
+    <!-- Blob (Top-Left) -->
+    <svg class="shape shape-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50.3,-63.9C64.3,-55.3,74.8,-40.7,78.9,-24.5C83.1,-8.3,80.9,9.5,72.7,24.1C64.5,38.7,50.3,50.1,35.2,58.1C20.1,66.1,4.1,70.7,-12.2,67.5C-28.5,64.3,-44.9,53.3,-56.9,39.1C-68.9,24.9,-76.5,7.5,-75.8,-9.7C-75.1,-26.9,-66.1,-44.1,-52.5,-54.3C-38.9,-64.5,-20.9,-67.7,-3.3,-64.6C14.3,-61.5,28.6,-52.1,50.3,-63.9Z" fill="#3b82f6" opacity="0.15" />
+    </svg>
 
-  <!-- Hexagon (Bottom-Right) -->
-  <svg class="shape shape-hex" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <path d="M50 10 L80 30 L80 70 L50 90 L20 70 L20 30 Z" fill="#10b981" opacity="0.12"/>
-  </svg>
+    <!-- Hexagon (Bottom-Right) -->
+    <svg class="shape shape-hex" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 10 L80 30 L80 70 L50 90 L20 70 L20 30 Z" fill="#10b981" opacity="0.12" />
+    </svg>
 
-  <!-- Circle Cluster (Top-Right) -->
-  <svg class="shape shape-circles" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="50" cy="50" r="35" fill="#1d4ed8" opacity="0.1"/>
-    <circle cx="90" cy="80" r="25" fill="#1d4ed8" opacity="0.08"/>
-    <circle cx="70" cy="110" r="15" fill="#1d4ed8" opacity="0.06"/>
-  </svg>
-</div>
+    <!-- Circle Cluster (Top-Right) -->
+    <svg class="shape shape-circles" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="50" cy="50" r="35" fill="#1d4ed8" opacity="0.1" />
+      <circle cx="90" cy="80" r="25" fill="#1d4ed8" opacity="0.08" />
+      <circle cx="70" cy="110" r="15" fill="#1d4ed8" opacity="0.06" />
+    </svg>
+  </div>
   <div class="container">
     <!-- Header -->
     <div class="cs-header new-layout">
@@ -568,7 +568,9 @@
           <p class="quote-text">They didn’t just deliver a product — they delivered a <strong>vision</strong>. Our team is now 10x more efficient.</p>
           <div class="quote-author">
             <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah L.">
-            <div><h4>Sarah L.</h4><span>CEO, TechFlow</span></div>
+            <div>
+              <h4>Sarah L.</h4><span>CEO, TechFlow</span>
+            </div>
           </div>
         </div>
 
@@ -577,7 +579,9 @@
           <p class="quote-text">The best decision we made in 2024. <strong>Support is unmatched</strong>, and results speak louder than promises.</p>
           <div class="quote-author">
             <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
-            <div><h4>Michael Chen</h4><span>CTO, DataWave</span></div>
+            <div>
+              <h4>Michael Chen</h4><span>CTO, DataWave</span>
+            </div>
           </div>
         </div>
 
@@ -586,7 +590,9 @@
           <p class="quote-text">From chaos to clarity in 30 days. <strong>Seamless migration</strong>, zero downtime.</p>
           <div class="quote-author">
             <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma R.">
-            <div><h4>Emma R.</h4><span>Director, FutureTech</span></div>
+            <div>
+              <h4>Emma R.</h4><span>Director, FutureTech</span>
+            </div>
           </div>
         </div>
       </div>
@@ -669,7 +675,7 @@
   </div>
 </section>
 
-<section class="branch-simple">
+<!-- <section class="branch-simple">
   <div class="branch-center">
 
     <h2 class="branch-title">Branch Overlook</h2>
@@ -690,6 +696,105 @@
       </a>
     </div>
 
+  </div>
+</section> -->
+
+
+<!-- ===== BRANCH LOCATIONS SECTION ===== -->
+<section class="contact-branches">
+  <div class="contact-branches-wrapper">
+    <div class="contact-section-title">
+
+      <span
+        data-testid="eligibility-tag"
+        style="
+    display: inline-block;
+    background: linear-gradient(135deg, #29b9ed, #2563eb);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+  ">
+        OUR LOCATIONS
+      </span>
+      <h2>Branch Offices</h2>
+      <p>Visit any of our branches for personalized assistance</p>
+    </div>
+
+    <div class="contact-branches-grid">
+      <div class="contact-branch-card">
+        <div class="contact-branch-icon">
+          <i class="fas fa-building"></i>
+        </div>
+        <h3>Chennai (Head Office)</h3>
+        <p class="contact-branch-address">
+          <i class="fas fa-map-marker-alt"></i>
+          1st Street, Nandanam<br>
+          Chennai - 600035
+        </p>
+        <p class="contact-branch-phone">
+          <i class="fas fa-phone"></i>
+          +91 98765 43210
+        </p>
+        <a href="#" class="contact-branch-btn">Get Directions</a>
+      </div>
+
+      <div class="contact-branch-card">
+        <div class="contact-branch-icon">
+          <i class="fas fa-building"></i>
+        </div>
+        <h3>Kanchipuram</h3>
+        <p class="contact-branch-address">
+          <i class="fas fa-map-marker-alt"></i>
+          Market Street, Gandhi Nagar<br>
+          Kanchipuram - 631501
+        </p>
+        <p class="contact-branch-phone">
+          <i class="fas fa-phone"></i>
+          +91 98765 43211
+        </p>
+        <a href="#" class="contact-branch-btn">Get Directions</a>
+      </div>
+
+      <div class="contact-branch-card">
+        <div class="contact-branch-icon">
+          <i class="fas fa-building"></i>
+        </div>
+        <h3>Thiruvallur</h3>
+        <p class="contact-branch-address">
+          <i class="fas fa-map-marker-alt"></i>
+          Main Road, Bazaar Street<br>
+          Thiruvallur - 602001
+        </p>
+        <p class="contact-branch-phone">
+          <i class="fas fa-phone"></i>
+          +91 98765 43212
+        </p>
+        <a href="#" class="contact-branch-btn">Get Directions</a>
+      </div>
+
+      <div class="contact-branch-card">
+        <div class="contact-branch-icon">
+          <i class="fas fa-building"></i>
+        </div>
+        <h3>Vandavasi</h3>
+        <p class="contact-branch-address">
+          <i class="fas fa-map-marker-alt"></i>
+          Temple Street, Town Center<br>
+          Vandavasi - 604408
+        </p>
+        <p class="contact-branch-phone">
+          <i class="fas fa-phone"></i>
+          +91 98765 43213
+        </p>
+        <a href="#" class="contact-branch-btn">Get Directions</a>
+      </div>
+    </div>
   </div>
 </section>
 

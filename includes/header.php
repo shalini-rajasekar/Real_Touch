@@ -72,7 +72,7 @@ if (strpos($current_script, '/pages/') !== false) {
                         <a href="<?php echo $basePath; ?>partners.php">For Partners <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu list-unstyled">
                             <li><a href="<?php echo $basePath; ?>pages/join-us.php">Join Us</a></li>
-                            <li><a href="<?php echo $basePath; ?>pages/partner-portfolio.php">Partner’s & Portfolio Details</a></li>
+                            <li><a href="<?php echo $basePath; ?>pages/partners-portfolio.php">Partner’s & Portfolio Details</a></li>
                         </ul>
                     </li>
 
@@ -105,7 +105,7 @@ if (strpos($current_script, '/pages/') !== false) {
                         </ul>
                     </li>
 
-                    <li><a href="<?php echo $basePath; ?>contact.php">Contact Us</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/contact.php">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
